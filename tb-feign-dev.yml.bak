@@ -10,23 +10,6 @@ spring:
         max-wait: -1ms
         max-idle: 10
         min-idle: 0
-  rabbitmq:
-    host: localhost
-    post: 5672
-    username: guest
-    password: guest
-
-  cloud:
-    bus: 
-      enabled: true
-      trace: 
-        enabled: true
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
 
 feign:
   client:
@@ -36,4 +19,3 @@ feign:
         readTimeout: 2000
   hystrix:
     enabled: true
-
