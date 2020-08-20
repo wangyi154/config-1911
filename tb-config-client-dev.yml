@@ -1,6 +1,6 @@
 my:
-  name: 王奕
-  age: 18
+  name: 王奕2
+  age: 20
   gender: 男
 spring:
   redis:
